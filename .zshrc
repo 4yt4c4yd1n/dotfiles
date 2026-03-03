@@ -9,7 +9,6 @@ export ZSH="$HOME/.oh-my-zsh"
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="agnoster"
-
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in $ZSH/themes/
@@ -75,8 +74,8 @@ plugins=(
 	zsh-autosuggestions
 )
 
+export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#808080"
 source $ZSH/oh-my-zsh.sh
-
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -107,8 +106,8 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # Created by `pipx` on 2025-07-22 15:21:55
-export PATH="$PATH:/home/alcemy/.local/bin"
+export PATH="$PATH:/home/aa/.local/bin"
 if [ "$TMUX" = "" ]; then tmux; fi
 
 # Created by `pipx` on 2025-08-14 10:14:28
-export PATH="$PATH:/Users/aytacaydin/.local/bin"
+export PATH="$PATH:/Users/aa/.local/bin"
